@@ -27,7 +27,7 @@ this.Z = z;
 It has **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo()**, **MoveBy()**
 
 * Method MoveTo() allows you to move the shape to given location.
-* Method MoveBy() allows you to move the shape by given difference coordinates dx,dy,dz.
+* Method MoveBy() allows you to move the shape by given difference coordinates dx, dy, dz.
 ```C#
 public interface IMoveable
 {
