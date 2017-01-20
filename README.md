@@ -46,3 +46,4 @@ Parallelepiped piped = new Parallelepiped(22, 13, 42);
 Console.WriteLine("The volume of parallelepiped = {0}\nThe area of parallelepiped = {1}", piped.Volume, piped.Area);
 ```
 # Result
+![GitHub Logo](/Shape3D.png)
