@@ -24,7 +24,7 @@ public struct Point3D
     }
 }
 ```
-It has **IMuveable** interface , which provides shape's moving. It contains methods **MoveTo()**, **MoveBy()**
+It has **IMoveable** interface , which provides shape's moving. It contains methods **MoveTo()**, **MoveBy()**
 
 * Method MoveTo() allows you to move the shape to given location.
 * Method MoveBy() allows you to move the shape by given difference coordinates dx, dy, dz.
@@ -37,7 +37,7 @@ void MoveTo(Point3D p);
 }
 ```
 # How to use
-Classes **Ellipsoid** and **Parallelepiped** are inherited from **AbstractShape** abstract class and **IMuveable** interface.
+Classes **Ellipsoid** and **Parallelepiped** are inherited from **AbstractShape** abstract class and **IMoveable** interface.
 For using this class library is necessary to add namespace Shape3D
 ```C#
 Ellipsoid elips = new Ellipsoid(18, 21, 9);
